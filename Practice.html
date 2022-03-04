@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <script src="https://kit.fontawesome.com/643e29b03b.js" crossorigin="anonymous"></script>
+
+    <style>
+        .fa-facebook-square{
+            color: blue;
+        }
+        .fa-youtube{
+            color: red;
+        }
+        .fas{
+            font-size: 10px;
+        }
+        .header{
+            text-align: center;
+            
+        }
+        .sub-header{
+            padding-left: 25px;
+        }
+        .swimming div{
+            border: 1px dashed palevioletred;
+            width: 200px;
+        }
+        #water{
+            position: relative;
+            left: 0px;
+            top: -75px;
+        }
+        #boy{
+            position: relative;
+            top: 75px;
+            z-index: 20;
+        }
+        #ring{
+            position: relative;
+            z-index: 10;
+        }
+        .swimming{
+            position: relative;
+        }
+        .dummy{
+            height: 150px;
+            width: 250px;
+            background-color: pink;
+            margin-top: 3px;
+            padding-bottom: 10px;
+            padding-top: 3px;
+            padding-left: 5px;
+        }
+        td,th{
+            border: 1px solid lightgray;
+            padding: 0px 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .wrapper{
+            display: grid;
+            place-items: center;
+            height: 100vh; 
+            background-image: url(/images/clouds-2390892_960_720.webp) ;
+            animation: animate 1s infinite;
+            animation-timing-function: linear; 
+        }
+        .wrapper img{
+            width: 20%;
+        }
+        @keyframes animate {
+            100%{
+                background-position: 1200px 1200px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="header">Practice</h1>
+    <section>
+        <h1 class="header">animaton</h1>
+        <div class="wrapper">
+            <img src="/images/superman-3186518_960_720.png" alt="">
+        </div>
+    </section>
+    <section>
+        <h2 class="header">Ordered lists of varying html elemments</h2>
+        <h2 class="sub-header"> Inline elements:
+            <ol>
+                <li>div</li>
+                <li>p</li>
+                <li>span</li>
+                <li>img</li>
+                <li>b</li>
+                <li>a</li>
+                <li>strong</li>
+                <li>svg</li>
+            </ol>
+        </h2>
+        <h2 class="sub-header">Block element:
+            <ol>
+                <li>article</li>
+                <li>footer</li>
+                <li>h1-h5</li>
+                <li>table</li>
+                <li>section</li>
+                <li>ul</li>
+                <li>video</li>
+            </ol>
+        </h2>
+        <h2 class="sub-header">Inline-block elements:
+            <ol>
+                <li>button</li>
+                <li>input</li>
+            </ol>
+        </h2>
+    </section>
+    <section class="swimming">
+        <h1 class="header">5.5 Revise</h1>
+        <div id="boy"><img src="/images/boy.svg" alt=""></div>
+        <div id="ring"><img src="/images/ring.svg" alt=""></div>
+        <div id="water"><img src="/images/water.svg" alt=""></div>
+        <div class="dummy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, possimus quibusdam odio deserunt corporis rem, autem consequatur aut debitis praesentium reprehenderit. Cum quis laborum, odit nulla tenetur ratione dolorum eius.</p>
+        </div>
+        <div class="dummy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, possimus quibusdam odio deserunt corporis rem, autem consequatur aut debitis praesentium reprehenderit. Cum quis laborum, odit nulla tenetur ratione dolorum eius.</p>
+        </div>
+        <div class="dummy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, possimus quibusdam odio deserunt corporis rem, autem consequatur aut debitis praesentium reprehenderit. Cum quis laborum, odit nulla tenetur ratione dolorum eius.</p>
+        </div>
+        
+    </section>
+    <section>
+        <h2>This is separete</h2>
+        <div class="dummy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, possimus quibusdam odio deserunt corporis rem, autem consequatur aut debitis praesentium reprehenderit. Cum quis laborum, odit nulla tenetur ratione dolorum eius.</p>
+        </div>
+        <div class="dummy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, possimus quibusdam odio deserunt corporis rem, autem consequatur aut debitis praesentium reprehenderit. Cum quis laborum, odit nulla tenetur ratione dolorum eius.</p>
+        </div>
+        <div class="dummy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, possimus quibusdam odio deserunt corporis rem, autem consequatur aut debitis praesentium reprehenderit. Cum quis laborum, odit nulla tenetur ratione dolorum eius.</p>
+        </div>
+        
+    </section>
+    <section>
+        <h1 class="header">Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Fav</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Romi Rain</td>
+                    <td>Breasts</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anna Bell Peaks</td>
+                    <td>Tats</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Diamond Jackson</td>
+                    <td>MILF</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h1 class="header">Semantic tags</h1>
+        <p>Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as header, footer and article are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.</p>
+        <h2 class="sub-header">here are some semantic tags</h2>
+        <ol>
+            <li>section</li>
+            <li>article</li>
+            <li>footer</li>
+            <li>header</li>
+            <li>main</li>
+        </ol>
+    </section>
+    <section>
+        <h1 class="header">Videos</h1>
+        <h2 class="sub-header">Video</h2>
+        <video  src="/Videos/Hot Slut Office Girl lparAlix Lynxrpar With Big Boobs Bang Hardcore movie-05 - XVIDEOS.COM.mp4" controls autoplay muted></video>
+        <br>
+        <h2 class="sub-header">Youtube</h2>
+        <iframe width="619" height="348" src="https://www.youtube.com/embed/17yoNes5PBE?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+        <h1 class="header">Icon Links</h1>
+        <h2><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a> Facebook</h2>
+        <h2><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>YouTube</h2>
+    </section>
+    
+</body>
+</html>
